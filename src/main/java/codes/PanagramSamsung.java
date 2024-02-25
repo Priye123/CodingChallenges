@@ -1,4 +1,4 @@
-package javabasics;
+package codes;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package javabasics;
+package codes;
 
 public class ReDistributeQuestion {
     public static void main(String[] args) {

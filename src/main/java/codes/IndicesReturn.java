@@ -1,4 +1,4 @@
-package javabasics;
+package codes;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;

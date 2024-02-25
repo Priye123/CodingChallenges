@@ -1,4 +1,4 @@
-package javabasics;
+package codes;
 
 import java.util.Scanner;
 import java.util.Stack;

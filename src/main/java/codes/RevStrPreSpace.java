@@ -1,4 +1,4 @@
-package javabasics;
+package codes;
 
 public class RevStrPreSpace {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package javabasics;
+package codes;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -14,7 +14,7 @@ public class Practice {
 //        System.out.println(s.length());
     }
 
-    public static int compress(char[] chars) {
+    public static int compress(char[] chars){
         Map<Character, Character> map = new LinkedHashMap<>();
         for (int i = 0; i < chars.length; i++) {
             if (map.containsKey(chars[i])) {
@@ -32,13 +32,6 @@ public class Practice {
             }
             count++;
         }
-//        char c[]=new char[count];
-//        int i=0;
-//        for (char ch : map.keySet()){
-//           c[i]=ch;
-//           c[i+1]=map.get(ch)-'0';
-//        }
-
 
         return count;
     }

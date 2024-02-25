@@ -24,7 +24,7 @@ public class Predicate1 {
         //o/p:-rahul,priye,sameer
         String names[] = {"rahul", "sameer", "subhakant", "ram"};
 
-        Predicate<String> pr = s -> s.length() > 3 && s.contains("r");
+        Predicate<String> pr = (s) -> s.length() > 3 && s.contains("r");
 
         for (String name : names) {
             if (pr.test(name)) {
