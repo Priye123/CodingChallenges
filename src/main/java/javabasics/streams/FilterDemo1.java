@@ -17,7 +17,7 @@ public class FilterDemo1 {
 //                .forEach(n -> System.out.println(n));
 
         numbersList.stream().filter(n -> n % 2 == 0) //10,20,30
-                .forEach(System.out::println);
+                .forEach(n -> System.out.println(n));//spread operator
 
         //string list of 6 objects null,"PriyeRanjan","RahulDas",null
         //print non-null values
